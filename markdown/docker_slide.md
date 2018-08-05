@@ -95,7 +95,14 @@
 
 ---
 
-<!-- Slide 5 -->
+<!-- Slide 14 -->
+<h4 style="color: #42affa;">Docker Version</h4>
+Returns the docker version installed
+```
+docker --version
+docker version
+```
+![Docker Version](/img/docker_version.png)
 
 ---
 
