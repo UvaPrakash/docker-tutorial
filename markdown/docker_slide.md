@@ -56,6 +56,7 @@
 <h3 style="color: #42affa;">Docker Daemon</h3>
 - The *Docker daemon* (`dockerd`) is a server, listens for Docker API requests.
 - Manages Docker objects such as images, containers, networks and volumes.
+- The background service running on the host that manages building, running and distributing Docker containers.
 
 --
 
@@ -63,6 +64,7 @@
 <h3 style="color: #42affa;">Docker Client</h3>
 - The *Docker client* (`docker`) is the primary way that many Docker users interact with Docker.
 - When user runs any command, client sends these commands to `dockerd`.
+- The command line tool that allows the user to interact with the daemon.
 
 --
 
@@ -84,7 +86,8 @@
 <h3 style="color: #42affa;">Images</h3>
 - In Docker, everything is based on images.
 - An image is a read-only template with instructions for creating a Docker container.
-- An image is an executable package that includes everything needed to run an application--the code, a runtime, libraries, environment variables, and configuration files.
+- An image is an executable package that includes everything needed to run an application-the code, a runtime, libraries, environment variables, and configuration files.
+- The blueprints of our application which form the basis of containers.
 
 --
 
@@ -96,28 +99,4 @@
 ---
 
 <!-- Slide 14 -->
-<h4 style="color: #42affa;">Docker Version</h4>
-Returns the docker version installed
-```
-docker --version
-docker version
-```
-![Docker Version](/img/docker_version.png)
-
----
-
-<!-- Slide 5 -->
-
----
-
-<!-- Slide 5 -->
-
----
-
-<!-- Slide 5 -->
-
----
-
-<!-- Slide 5 -->
-
----
+<h2 style="color: #42affa;">Thank you</h4>
