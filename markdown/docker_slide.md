@@ -23,7 +23,7 @@
 
 <!-- Slide 4 -->
 <h3 style="color: #42affa;">Docker Engine</h3>
-![Docker Engine](/img/docker_engine.png)
+![Docker Engine]({{site.url}}{{site.baseurl}}/img/docker_engine.png)
 
 --
 
